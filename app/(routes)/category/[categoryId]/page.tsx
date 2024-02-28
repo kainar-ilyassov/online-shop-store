@@ -10,8 +10,6 @@ import { MobileFilters } from "@/app/(routes)/category/[categoryId]/components/m
 
 import { Filter } from "./components/filter";
 
-export const revalidate = 0;
-
 interface CategoryPageProps {
   params: {
     categoryId: string;
