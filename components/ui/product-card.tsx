@@ -29,7 +29,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
     onOpen(data);
   };
 
-  const onAddToCart: MouseEventHandler<HTMLButtonElement> = (event) => {
+  const onAddToCart: MouseEventHandler<SVGSVGElement> = (event) => {
     event.stopPropagation();
     cart.addItem(data);
   };
